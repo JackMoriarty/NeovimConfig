@@ -7,5 +7,8 @@ if vim.g.neovide then
   vim.opt.guifont = "Maple Mono NF CN:h12"
 end
 
+-- 界面使用英文
+-- vim.cmd("language en_US")
+
 -- 显示80列辅助线
 vim.opt.colorcolumn = "80"
