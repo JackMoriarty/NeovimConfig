@@ -31,14 +31,6 @@ return {
           --   end,
           --   model = "FIMModel",
           -- },
-          -- openai_compatible = {
-          --   name = "RemoteService",
-          --   end_point = "[RemoteURL]/chat/completions",
-          --   api_key = function()
-          --     return "TERM"
-          --   end,
-          --   model = "ChatModel",
-          -- },
         },
       })
       require("lualine").setup({
