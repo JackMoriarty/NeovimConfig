@@ -23,14 +23,14 @@ return {
 
         provider = "openai_fim_compatible",
         provider_options = {
-          -- openai_fim_compatible = {
-          --   name = "RemoteService",
-          --   end_point = "[RemoteURL]/completions",
-          --   api_key = function()
-          --     return "TERM"
-          --   end,
-          --   model = "FIMModel",
-          -- },
+          openai_fim_compatible = {
+            name = "RemoteService",
+            end_point = "[RemoteURL]/completions",
+            api_key = function()
+              return "TERM"
+            end,
+            model = "FIMModel",
+          },
         },
       })
       require("lualine").setup({
