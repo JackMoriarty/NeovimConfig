@@ -45,11 +45,8 @@ return {
         -- example: 'foo_|_bar' will match 'foo_' for 'prefix' and 'foo__bar' for 'full'
         range = "full",
       },
-      list = {
-        selection = {
-          preselect = false,
-          auto_insert = false,
-        },
+      ghost_text = {
+        show_with_menu = false,
       },
     },
 
