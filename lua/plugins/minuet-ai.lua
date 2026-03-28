@@ -4,7 +4,8 @@ return {
     config = function()
       require("minuet").setup({
         virtualtext = {
-          auto_trigger_ft = { "c", "c++", "python", "rust" },
+          auto_trigger_ft = { "*" },
+          disabled_auto_trigger_ft = { "markdown", "text" },
           keymap = {
             -- accept whole completion
             accept = "<A-A>",
