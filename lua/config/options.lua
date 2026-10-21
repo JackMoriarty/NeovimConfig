@@ -5,6 +5,8 @@
 -- neovide 字体设置
 if vim.g.neovide then
   vim.opt.guifont = "Maple Mono NF CN:h12"
+  vim.g.neovide_opacity = 0.8
+  vim.g.neovide_window_blurred = true
 end
 
 -- 界面使用英文
